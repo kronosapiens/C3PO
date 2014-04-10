@@ -3,14 +3,18 @@ C3PO
 
 Collective Coffee Consumption Progress Observer
 
-## Using Artoo:
+## Arduino guides:
 
-Analog sensor: http://artoo.io/documentation/drivers/analog-sensor/
+# Code
+http://arduino.cc/en/Reference/AnalogRead
+http://arduino.cc/en/Reference/Delay
+http://arduino.cc/en/Serial/begin
 
-Led: http://artoo.io/documentation/drivers/led/
+# Hardware
+http://arduino.cc/en/Tutorial/AnalogInputPins
+https://learn.adafruit.com/adafruit-arduino-lesson-3-rgb-leds
+http://arduino.cc/en/Tutorial/PWM
+https://www.sparkfun.com/tutorials/389
 
-## Using Johnny-Five
-
-https://github.com/rwaldron/johnny-five
-
-https://github.com/rwaldron/johnny-five/blob/master/docs/sensor.md
+## The Arduino IDE:
+http://arduino.cc/en/main/software
