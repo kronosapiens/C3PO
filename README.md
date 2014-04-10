@@ -1,8 +1,7 @@
-coffeemeter
+C3PO
 ===========
 
-An arduino-powered fullness-meter for the Flatiron School coffeepot.
-
+Collective Coffee Consumption Progress Observer
 
 ## Using Artoo:
 
