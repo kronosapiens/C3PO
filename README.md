@@ -1,7 +1,16 @@
 C3PO
 ===========
 
-Collective Coffee Consumption Progress Observer
+Collective Coffee Consumption Progress Observer -- an arduino-powered sensor
+
+## Operation
+
+An arduino-powered device installed on the Flatiron School coffee machine. A pressure sensor lies beneath the coffee pot and sends readings to the arduino board (in our case, a Sparkfun RedBoard), which then changes the color of the attached tri-color LED, according to the following levels:
+
+#### Green: Full pot
+#### Yellow: Half pot
+#### Red: Empty or nearly-empty pot
+#### Blue: No pot (off the sensor)
 
 ## Arduino resources we used:
 
