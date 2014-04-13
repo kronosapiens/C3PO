@@ -12,6 +12,13 @@ An arduino-powered device installed on the Flatiron School coffee machine. A pre
 #### Red: Empty or nearly-empty pot
 #### Blue: No pot (off the sensor)
 
+## Pictures!
+
+![Workstation](/images/workstation.jpg "Workstation")
+![Eugene Soldering](/images/eugene_soldering.jpg "Eugene Soldering")
+![Prashant Sketching](/images/prashant_Sketching.jpg "Prashant Sketching")
+![Installing](/images/installing.jpg "Installing")
+
 ## Arduino resources we used:
 
 ### Code
