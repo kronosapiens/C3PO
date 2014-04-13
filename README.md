@@ -16,7 +16,7 @@ An arduino-powered device installed on the Flatiron School coffee machine. A pre
 
 ![Workstation](/images/workstation.jpg "Workstation")
 ![Eugene Soldering](/images/eugene_soldering.jpg "Eugene Soldering")
-![Prashant Sketching](/images/prashant_Sketching.jpg "Prashant Sketching")
+![Prashant Sketching](/images/prashant_sketching.jpg "Prashant Sketching")
 ![Installing](/images/installing.jpg "Installing")
 
 ## Arduino resources we used:
