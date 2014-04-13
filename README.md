@@ -24,8 +24,6 @@ An arduino-powered device installed on the Flatiron School coffee machine. A pre
 ### Code
 http://arduino.cc/en/Reference/AnalogRead
 
-http://arduino.cc/en/Reference/Delay
-
 http://arduino.cc/en/Serial/begin
 
 ### Hardware
