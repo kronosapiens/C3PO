@@ -1,6 +1,6 @@
 // C3PO
 
-int analogPin = A0;     // potentiometer wiper (middle terminal) connected to analog pin A0
+int analogPin = A0;     // pressure sensor connected to analog pin A0
                         // outside leads to ground and +5V
 
 int pressureReading1 = 0;           // variable to store the value read
