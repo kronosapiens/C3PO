@@ -1,7 +1,7 @@
 C3PO
 ===========
 
-Collective Coffee Consumption Progress Observer -- an arduino-powered sensor
+Collective Coffee Consumption Progress Observer -- an arduino-powered fullness-meter for the Flatiron School coffeepot.
 
 ## Operation
 
