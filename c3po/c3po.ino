@@ -9,6 +9,7 @@ int pressureReading3 = 0;
 int pressureReading4 = 0;
 int pressureReading5 = 0;
 int pressureAvg = 0;
+int lastReading = 0;
 
 
 int redPin = 11;
@@ -17,9 +18,9 @@ int bluePin = 9;
 
 int led = 13;
 
-int fullPot = 700;          // set thresholds for analogRead
-int halfPot = 630;
-int emptyPot = 200;
+int fullPot = 150;          // set thresholds for analogRead
+int halfPot = 530;          // not currently being used
+int emptyPot = 50;
 
 //uncomment this line if using a Common Anode LED
 //#define COMMON_ANODE
@@ -77,15 +78,19 @@ void loop()
   Serial.print(" - pressureReading: ");
   Serial.println(pressureAvg);
   
-  if(pressureAvg > fullPot){
+  if(abs(lastReading / pressureAvg) > 2){
+    return;
+  }else if(pressureAvg > fullPot){
       setColor(0, 255, 0);  // green
-  }else if(pressureAvg > halfPot && pressureAvg < fullPot){
-      setColor(255, 123, 0);  // yellow
+//  }else if(pressureAvg > halfPot && pressureAvg < fullPot){
+//      setColor(255, 123, 0);  // yellow
   }else if(pressureAvg > emptyPot){
       setColor(255, 0, 0);  // red
   }else{
     setColor(0, 0, 255);  // blue
   };
+  
+  lastReading = pressureAvg;
   
   delay(400);
 
